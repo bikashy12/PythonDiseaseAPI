@@ -1,9 +1,0 @@
-# Set the line endings for specific files or directories
-# to LF (Unix-style line endings)
-*.txt text eol=lf
-
-# Set the line endings for other files to CRLF (Windows-style)
-*.* text eol=crlf
-
-# Exclude specific files or directories from line ending conversion
-!myenv/Lib/site-packages/pandas-2.0.1.dist-info/top_level.txt binary
