@@ -5,7 +5,8 @@ contourpy==1.0.6
 cycler==0.11.0
 Cython==0.29.34
 docutils==0.20.1
-Flask==2.3.2
+# Flask==2.3.2
+Flask==2.2.5
 fonttools==4.39.4
 importlib-metadata==6.6.0
 importlib-resources==5.12.0
