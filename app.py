@@ -16,6 +16,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load and preprocess the data
+# contourpy==1.0.7
 DATA_PATH = "training.csv"
 data = pd.read_csv(DATA_PATH).dropna(axis=1)
 
